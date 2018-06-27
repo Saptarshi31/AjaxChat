@@ -1,0 +1,38 @@
+body{
+	margin: 0 auto;
+	background: url('0008442925_10.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.login{
+	position: absolute;
+	top: 200px;
+	left: 525px;
+	height: auto;
+	width: 400px;
+	background: rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 42px 25px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 42px 25px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 42px 25px rgba(0,0,0,0.75);
+	padding: 0 20px 50px 20px;
+	border: none;
+	border-radius: 20px;
+}
+
+.login:hover{
+	background: rgba(0, 0, 0, 0.9);
+}
+
+#email-box{
+	display: none;
+	left: 60%;
+	top:46%;
+	position: absolute;
+	border-radius: 20px;
+	width: 13%;
+	height: auto;
+	padding: 20px;
+	background-color: white;
+	font-weight: bold;
+}

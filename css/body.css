@@ -1,0 +1,94 @@
+body{
+	margin: 0 auto;
+	background: url('https://thumbs.dreamstime.com/b/fondo-del-espacio-de-trabajo-de-la-oficina-caf%C3%A9-tableta-cuadernos-53770534.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+
+.Name-tag{
+	font-family: 'Grand Hotel', cursive;
+	padding: 20px 0 0 30px;
+	font-size: 40px;
+}
+
+.Logout-button{
+	padding: 10px 30px;
+}
+
+.chat-box{
+	width: 700px;
+	height: 700px;
+	margin-left: 30%;
+	margin-top: 1.5%;
+	background: #D2AB6F;
+}
+
+.chat-head{
+	width: 100%;
+	height: 10%;
+	background: rgba(255,255,255,0.5);
+	font-family: 'Acme', sans-serif;
+}
+
+.messages-header{
+	padding: 20px 0 0 10px;
+}
+
+.chat-body{
+	background-color: white;
+	width: 100%;
+	height: 80%;
+	padding: 10px;
+	overflow:auto;
+	overflow-x: hidden;
+}
+
+.inner-chat-body{
+	height: 100%;
+	width: 90%;
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin:0 0 0 25px;
+	overflow-y: scroll;
+}
+
+.sender{
+	width: 100%;
+	float: left;
+	margin-top: 2px;
+}
+
+.sender_msg{
+	border-radius: 20px;
+	width: 80%;
+	padding: 10px;
+	background-color: #429bf4;
+	float: right;
+	word-break:break-all;
+}
+
+.receiver{
+	width: 100%;
+	float: left;
+	margin-top: 2px;
+}
+
+.receiver_msg{
+	border-radius: 20px;
+	width: 80%;
+	background-color: #44fc5c;
+	padding: 10px;
+	float: left;
+	word-break:break-all;
+}
+
+.chat-end{
+	width: 100%;
+	height: 10%;
+	padding: 20px;
+}
+
+.active-people{
+	background: #D2AB6F;
+	padding:30px;
+}
